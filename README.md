@@ -1,4 +1,5 @@
-Algorithim of the goes as: Note : Program Starts from main function (int main())
+Note : Program Starts from main function (int main())
+Algorithim of the code  goes as:
 
 Step-1 We take the year(century) from user as int value and store it in 'year'
 
