@@ -16,7 +16,7 @@ int first_day(int year,int M){   //function for finding first day of(i.e Sunday,
       }
     else
      {
-        return(((F%7)+7)%7);  //this function will return nos 0-6 such tha for 0 first day of month is sunday, fir 1 monday and son on till 6 for Saturday
+        return(((F%7)+7)%7);  //this function will return nos 0-6 such tha for 0 first day of month is sunday, for 1 monday and so on till 6 for Saturday
       }
 }
 
