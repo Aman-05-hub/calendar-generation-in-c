@@ -4,10 +4,9 @@
 
 int year;
 
-int
-first_day (int year, int M)
-{				//function for finding first day of(i.e                        
-  // Sunday,Monday etc) month using  Zeller's rule
+int first_day (int year, int M)     
+{				    //function for finding first day of(i.e 
+  				   // Sunday,Monday etc) month using  Zeller's rule
 
   int D = year % 100;		// M = Month no. ,D = Last two digits of the year, C = The first two digits of year ,
   int C = year / 100;		// so for 2021 D=21  C=20 and
@@ -25,9 +24,8 @@ first_day (int year, int M)
     }
 }
 
-void
-display_calendar (char month[3], int Ist_day, int days)
-{				//function to display calendar
+void display_calendar (char month[3], int Ist_day, int days)   //function to display calendar
+{				
   system ("clear");
   printf ("---------------%d------------------", year);
   printf ("\n\n---------------%s-------------------\n", month);
@@ -56,8 +54,7 @@ display_calendar (char month[3], int Ist_day, int days)
 
 
 
-int
-main ()				//Program execution starts from here .
+int main ()				//Program execution starts from here .
 {
   int n, Ist_day;
   char month[3];
@@ -69,8 +66,7 @@ A:printf
   scanf ("%s", month);
 
   char *arr[] =
-    { "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct",
-"nov", "dec" };
+    { "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct","nov", "dec" };
 
   for (int i = 0; i < 12; i++)
     {
